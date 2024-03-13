@@ -1,0 +1,94 @@
+.box {
+	width: 800px;
+	height: 500px;
+	position: fixed;
+	margin-left: -400px;
+	margin-top: -300px;
+	top: 50%;
+	left: 50%;
+
+
+
+}
+
+.imgs {
+	width: 90%;
+	height: 50%;
+}
+
+.txt {
+	font-family: Garamond, serif;
+	font-size: 69;
+}
+
+
+.txt1 {
+	font-family: Garamond, serif;
+	font-size: 50px;
+}
+
+
+.dropbtn {
+  background-color: transparent;
+  color: black;
+  padding: 16px;
+  font-family: Garamond, serif;
+  font-size: 25px;
+  border:none;
+    align-self: flex-end;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display:none;
+  position: absolute;
+  background-color: wheat;
+  min-width: 300px;
+  z-index: 1;
+    border-radius: 10px;
+
+}
+
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+      font-family: Garamond, serif;
+}
+
+.dropdown-content a:hover {background-color: transparent;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color:;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+    background-color: beige
+ 
+}
+
+li  {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+    	font-family: Garamond, serif;
+	font-size: 30px;
+}
+
+li a:hover {
+  background-color: wheat;
+}
